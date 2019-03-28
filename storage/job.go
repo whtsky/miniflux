@@ -12,7 +12,7 @@ import (
 	"miniflux.app/timer"
 )
 
-const maxParsingError = 3
+const maxParsingError = 2147483646
 
 // NewBatch returns a serie of jobs.
 func (s *Storage) NewBatch(batchSize int) (jobs model.JobList, err error) {
