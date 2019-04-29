@@ -3,6 +3,8 @@ Miniflux 2
 [![Build Status](https://travis-ci.org/miniflux/miniflux.svg?branch=master)](https://travis-ci.org/miniflux/miniflux)
 [![GoDoc](https://godoc.org/miniflux.app?status.svg)](https://godoc.org/miniflux.app)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/whtsky/miniflux/tree/dev)
+
 Miniflux is a minimalist and opinionated feed reader:
 
 - Written in Go (Golang)
