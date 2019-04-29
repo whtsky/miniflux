@@ -1,0 +1,15 @@
+{
+  "name": "miniflux",
+  "description": "Minimalist RSS Reader",
+  "keywords": ["rss", "feed", "atom", "minimalist", "miniflux"],
+  "repository": "https://github.com/whtsky/miniflux",
+  "addons": ["heroku-postgresql"],
+  "env": {
+    "ARCHIVE_READ_DAYS": "3",
+    "POLLING_FREQUENCY": "15",
+    "RUN_MIGRATIONS": "1",
+    "CREATE_ADMIN": "1",
+    "ADMIN_USERNAME": "admin",
+    "ADMIN_PASSWORD": "admin"
+  }
+}
