@@ -1,5 +1,5 @@
 APP := miniflux
-DOCKER_IMAGE := miniflux/miniflux
+DOCKER_IMAGE := whtsky/miniflux
 VERSION := $(shell git rev-parse --short HEAD)
 BUILD_DATE := `date +%FT%T%z`
 LD_FLAGS := "-s -w -X 'miniflux.app/version.Version=$(VERSION)' -X 'miniflux.app/version.BuildDate=$(BUILD_DATE)'"
